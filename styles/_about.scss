@@ -1,0 +1,73 @@
+.about {
+    width: 95%;
+    margin: auto;
+    margin-top: 5em;
+    margin-bottom: 5em;
+    min-height: 90vh;
+    @include flex(space-between, center, column);
+    text-align: center;
+    flex-wrap: wrap;
+    background-color: white;
+    border-radius: 12%;
+    padding: 1rem;
+
+    h1 {
+        font-size: 6em;
+        color:  rgb(3, 4, 71);
+        margin: 2rem;
+    }
+
+    h3 {
+        font-size: 5em;
+        color:  rgb(3, 4, 71);
+        margin: 2rem;
+    }
+
+    .about-txt {
+        flex: 1 1 2rem;
+        font-size: 2em;
+        text-align: center;
+        color:  rgb(3, 4, 71);
+        padding: 0.2rem;
+        letter-spacing: 0.1em;
+        line-height: 1.5em;
+    }
+}
+
+@media only screen and (min-width: 576px) {
+    .about {
+        width: 90%;
+        margin: auto;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+        min-height: 90vh;
+        @include flex(space-between, center, column);
+        text-align: center;
+        flex-wrap: wrap;
+        background-color: white;
+        border-radius: 10%;
+        padding: 5rem;
+    
+        h1 {
+            font-size: 10rem;
+            color:  rgb(3, 4, 71);
+            margin: 5rem;
+        }
+    
+        h3 {
+            font-size: 6rem;
+            color:  rgb(3, 4, 71);
+            margin: 5rem;
+        }
+    
+        .about-txt {
+            flex: 1 1 2rem;
+            font-size: 4rem;
+            text-align: center;
+            color:  rgb(3, 4, 71);
+            padding: 1rem;
+            letter-spacing: 0.3rem;
+            line-height: 2em;
+        }
+    }
+}

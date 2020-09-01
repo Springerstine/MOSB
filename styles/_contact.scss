@@ -1,0 +1,99 @@
+.contact-section{
+    width: 95vw;
+    margin: auto;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    min-height: 90vh;
+    @include flex(space-evenly, center, column);
+    text-align: center;
+    flex-wrap: wrap;
+    background-color: white;
+    border-radius: 13%;
+    padding: 2rem;
+
+    .address-info, .rachel-info, .angelina-info, .chris-info, .earl-info {
+        margin-bottom: 5rem;
+        margin-top: 5rem;
+    }
+
+
+    h1 {
+        @include flex(space-evenly, center, column);
+        font-size: 7rem;
+        color:  rgb(3, 4, 71);
+        margin: 2rem;
+        text-align: center;
+    }
+
+    h2 {
+        @include flex(space-evenly, center, column);
+        font-size: 5rem;
+        color:  rgb(3, 4, 71);
+        margin: 1rem;
+    }
+
+    h3 {
+        @include flex(space-evenly, center, column);
+        font-size: 4rem;
+        color:  rgb(3, 4, 71);
+        margin: 1rem;
+    }
+
+    p {
+        @include flex(space-evenly, center, column);
+        font-size: 2rem;
+        color:  rgb(3, 4, 71);
+        margin: 2rem;
+    }
+}
+
+@media only screen and (min-width: 576px) {
+    .contact-section{
+        width: 95vw;
+        margin: auto;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+        min-height: 90vh;
+        @include flex(space-evenly, center, column);
+        text-align: center;
+        flex-wrap: wrap;
+        background-color: white;
+        border-radius: 10%;
+        padding: 2rem;
+    
+        .address-info, .rachel-info, .angelina-info, .chris-info, .earl-info {
+            margin-bottom: 5rem;
+            margin-top: 5rem;
+        }
+    
+    
+        h1 {
+            @include flex(space-evenly, center, column);
+            font-size: 10rem;
+            color:  rgb(3, 4, 71);
+            margin: 5rem;
+            text-align: center;
+        }
+    
+        h2 {
+            @include flex(space-evenly, center, column);
+            font-size: 5rem;
+            color:  rgb(3, 4, 71);
+            margin: 2rem;
+        }
+    
+        h3 {
+            @include flex(space-evenly, center, column);
+            font-size: 4rem;
+            color:  rgb(3, 4, 71);
+            margin: 2rem;
+        }
+    
+        p {
+            @include flex(space-evenly, center, column);
+            font-size: 2rem;
+            color:  rgb(3, 4, 71);
+            margin: 2rem;
+        }
+    }
+}

@@ -1,0 +1,44 @@
+/* Variables */
+$background-img: url(../img/brickwall.jpg);
+
+@mixin flex($justify, $align, $direction) {
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;  
+    flex-direction: $direction; 
+ }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ 
+ @font-face {
+    font-family: '';
+    src: url('');
+ }
+ 
+ html {
+    /* makes 1rem = 10px */
+    font-size: 62.5%;
+    
+ }
+ 
+ body {
+   animation: opening 1s ease-in-out;
+ }
+ 
+ html, body {
+    height: 100%;
+    width: 100%;
+    background-image: $background-img;
+    background-size: cover;
+    background-repeat: repeat-y;
+ }
+ 
+ a {
+    color: black;
+    text-decoration: none;
+ }
+ 

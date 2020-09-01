@@ -1,0 +1,34 @@
+header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    flex-direction: column;
+    min-height: 25rem;
+    width: 25rem;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 2rem;
+    
+
+    .logo {
+       position: relative;
+       transform: translateY(-8px);
+       @include flex(center, center, column);
+    }
+ 
+    a {
+       display: flex;
+       transition: transform 1s;
+        &:hover {
+           z-index: 1;
+           transform: scale(1.03);
+        }
+    }
+ 
+    .logo-img{
+       height: 20rem;
+       width: 20rem;
+    }
+ }
