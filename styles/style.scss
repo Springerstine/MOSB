@@ -1,0 +1,17 @@
+@import './global';
+@import './header';
+@import './body';
+@import './menu';
+@import './about';
+@import './contact';
+@import './footer';
+
+
+@media screen and (max-width: 754px) {
+    html{
+        font-size: 45%;
+    } 
+
+    
+
+}
